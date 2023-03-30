@@ -1,7 +1,7 @@
 # "Daily Habits Tracker" App using React
 
-## "Daily Habits Tracker" is a project that allows users to track their daily habits and monitor their progress towards achieving their goals. 
-## The habits can include anything from exercising, drinking water, reading, meditating, or any other activity that the user wants to track on a regular basis.
+### "Daily Habits Tracker" is a project that allows users to track their daily habits and monitor their progress towards achieving their goals. 
+### The habits can include anything from exercising, drinking water, reading, meditating, or any other activity that the user wants to track on a regular basis.
 
 ## Features
 ### The User can add a new habit to the list.
