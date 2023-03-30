@@ -68,8 +68,8 @@ const Day = ({day}) => {
     <div className="day-container">
       <h5 className="text-center">{day.day}</h5>
       <p className="text-center">{date.getDate()}/{date.getMonth()+1}/{date.getFullYear()}</p>
-      <i className={day.isDone===true?"fa-solid fa-circle-check circle-icon active":"fa-solid fa-circle-check circle-icon"} onClick={done}></i>
-      <i className={day.isDone===false?"fa-solid fa-circle-xmark circle-icon active":"fa-solid fa-circle-xmark circle-icon"} onClick={notDone}></i>
+      <i className={day.isDone===true?"fa-solid fa-circle-check circle-icon active green":"fa-solid fa-circle-check circle-icon" } onClick={done}></i>
+      <i className={day.isDone===false?"fa-solid fa-circle-xmark circle-icon active":"fa-solid fa-circle-xmark circle-icon"} onClick={notDone} style={{ color: day.isDone===false ? 'red' : '' }}></i>
       <i className={day.isDone===""?"fa-solid fa-circle-minus circle-icon active":"fa-solid fa-circle-minus circle-icon"} onClick={none}></i>
       <ToastContainer />
     </div>
